@@ -80,7 +80,7 @@
             // 
             AutoScaleDimensions = new SizeF(10F, 25F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(800, 298);
+            ClientSize = new Size(418, 298);
             Controls.Add(calculateAreaAndPerimeterBtn);
             Controls.Add(widthTxt);
             Controls.Add(lengthTxt);
