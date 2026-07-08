@@ -6,5 +6,12 @@ namespace WinFormsSourceControl
         {
             InitializeComponent();
         }
+
+        private void calculateAreaAndPerimeterBtn_Click(object sender, EventArgs e)
+        {
+            int length = Convert.ToInt32(lengthTxt.Text);
+            int width = Convert.ToInt32(widthTxt.Text);
+
+        }
     }
 }
