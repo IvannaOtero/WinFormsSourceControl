@@ -40,7 +40,7 @@
             // label1
             // 
             label1.AutoSize = true;
-            label1.Location = new Point(41, 59);
+            label1.Location = new Point(91, 56);
             label1.Name = "label1";
             label1.Size = new Size(70, 25);
             label1.TabIndex = 0;
@@ -49,7 +49,7 @@
             // label2
             // 
             label2.AutoSize = true;
-            label2.Location = new Point(46, 118);
+            label2.Location = new Point(91, 125);
             label2.Name = "label2";
             label2.Size = new Size(64, 25);
             label2.TabIndex = 1;
@@ -57,23 +57,23 @@
             // 
             // lengthTxt
             // 
-            lengthTxt.Location = new Point(169, 62);
+            lengthTxt.Location = new Point(286, 56);
             lengthTxt.Name = "lengthTxt";
             lengthTxt.Size = new Size(150, 31);
             lengthTxt.TabIndex = 2;
             // 
             // widthTxt
             // 
-            widthTxt.Location = new Point(171, 119);
+            widthTxt.Location = new Point(286, 119);
             widthTxt.Name = "widthTxt";
             widthTxt.Size = new Size(150, 31);
             widthTxt.TabIndex = 3;
             // 
             // calculateAreaAndPerimeterBtn
             // 
-            calculateAreaAndPerimeterBtn.Location = new Point(100, 199);
+            calculateAreaAndPerimeterBtn.Location = new Point(30, 181);
             calculateAreaAndPerimeterBtn.Name = "calculateAreaAndPerimeterBtn";
-            calculateAreaAndPerimeterBtn.Size = new Size(157, 66);
+            calculateAreaAndPerimeterBtn.Size = new Size(181, 84);
             calculateAreaAndPerimeterBtn.TabIndex = 4;
             calculateAreaAndPerimeterBtn.Text = "Calculate Area and Perimeter";
             calculateAreaAndPerimeterBtn.UseVisualStyleBackColor = true;
@@ -81,7 +81,7 @@
             // 
             // areaTxt
             // 
-            areaTxt.Location = new Point(344, 185);
+            areaTxt.Location = new Point(375, 181);
             areaTxt.Name = "areaTxt";
             areaTxt.ReadOnly = true;
             areaTxt.Size = new Size(150, 31);
@@ -89,7 +89,7 @@
             // 
             // perimeterTxt
             // 
-            perimeterTxt.Location = new Point(344, 234);
+            perimeterTxt.Location = new Point(375, 234);
             perimeterTxt.Name = "perimeterTxt";
             perimeterTxt.ReadOnly = true;
             perimeterTxt.Size = new Size(150, 31);
@@ -99,7 +99,7 @@
             // 
             AutoScaleDimensions = new SizeF(10F, 25F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(540, 298);
+            ClientSize = new Size(575, 326);
             Controls.Add(perimeterTxt);
             Controls.Add(areaTxt);
             Controls.Add(calculateAreaAndPerimeterBtn);
